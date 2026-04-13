@@ -340,12 +340,9 @@ export default function ScreenplayToMovie() {
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent'
             }}>
-              Screenplay → Movie
+              OneShot: Screenplay → Movie
             </h1>
           </div>
-          <p style={{ color: '#888', fontSize: 16, margin: 0 }}>
-            Powered by <strong style={{ color: '#ff6b6b' }}>Grok Imagine Video API</strong> • Turn scripts into cinematic shorts
-          </p>
         </header>
 
         {/* API Key Section */}
@@ -899,16 +896,6 @@ export default function ScreenplayToMovie() {
             </div>
           </div>
         )}
-
-        {/* Footer */}
-        <footer style={{ 
-          textAlign: 'center', 
-          marginTop: 60, 
-          color: '#555', 
-          fontSize: 13 
-        }}>
-          Built with React + Grok Imagine Video API • Video generation costs apply per clip
-        </footer>
       </div>
     </div>
   )
